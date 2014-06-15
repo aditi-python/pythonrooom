@@ -1,2 +1,14 @@
-pythonrooom
 ===========
+
+import turtle
+t = turtle.Turtle()
+angle = 71
+
+ListOfColors = [ "red" , "green" , "blue" , "yellow" , "orange" ,  ]
+ListOfNumbers = range(1, 15)
+
+for number in ListOfNumbers:
+	for color in ListOfColors:
+		t.color(color)
+		t.forward(100)
+		t.left(angle)
