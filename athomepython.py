@@ -1,6 +1,6 @@
 import turtle
 
-a = turtle
-b = turtle
+a = turtle.Turtle()
+b = turtle.Turtle()
 
-a.turtle.forward 
+a.forward 
