@@ -1,3 +1,5 @@
+# author: aditi-python
+
 import turtle
 t = turtle.Turtle()
 u = turtle.Turtle()
@@ -5,14 +7,19 @@ v = turtle.Turtle()
 w = turtle.Turtle()
 
 numbers = range(10, 50)
-colors = ["red" , "blue" , "green" , "orange" , "yellow" ]
+colors = ["red" , "orange" , "yellow" , "green" , "blue"]
 
-v.color("white")
-w.color("white")
+v.color("blue")
+w.color("blue")
 v.left(180)
+v.forward(150)
+w.forward(150)
+v.right(180)
 w.left(180)
-v.forward(20)
-w.forward(20)
+v.forward(130)
+w.forward(170)
+v.left(180)
+
 
 
 for number in numbers:
@@ -29,7 +36,6 @@ for number in numbers:
 		u.right(number / 5)
 		
 		
-		
 for number in numbers:
 	for color in colors:
 		w.color(color)
@@ -43,6 +49,3 @@ for number in numbers:
 		v.forward(5)
 		v.right(number / 5)
 		
-		
-
-
